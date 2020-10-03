@@ -6,7 +6,7 @@ var token = 'token';
 // Create a bot that uses 'polling' to fetch new updates
 var bot = new TelegramBot(token, {polling: true});
 
- 
+ //
 bot.on('message',function(msg){ 
       var cha =-1001471466288   //idالقناة 
 
