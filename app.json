@@ -9,8 +9,8 @@
       "description": "Your Bot token. Get from https://t.me/botfather",
       "value": ""
     },
-    "id القناة": {
-      "description": "قناة id.",
+    "id_ids": {
+      "description": "id.",
       "value": "youtubeitbot",
       "required":false
     },
