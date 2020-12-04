@@ -1,15 +1,24 @@
 var TelegramBot = require('node-telegram-bot-api');
    
+
+
+var fs = require("fs");
+
+var red = fs.readFileSync("app.json");
+var json = JSON.parse(red);
+
+ var cha =json.id_channl.value  //idالقناة 
+var token = json.env.BOT_Token.value
 // replace the value below with the Telegram token you receive from @BotFather
-var token = 'token';
+
 
 // Create a bot that uses 'polling' to fetch new updates
 var bot = new TelegramBot(token, {polling: true});
 
  //
 bot.on('message',function(msg){ 
-      var cha =-1001471466288   //idالقناة 
-
+     
+bot.sendMessage(msg.chat.id,"تم")
       
       if(msg.text  && msg.chat.type==='private'){
         console.log(msg)
