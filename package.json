@@ -1,0 +1,18 @@
+{
+  "name": "telegram-bot-api",
+  "version": "0.50.0",
+  "description": "Telegram Bot API",
+  "main": "./bot.js",
+  "keywords": [
+    "telegram",
+    "telegram bot"
+  ],
+  "author": "Ali",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.12"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.50.0"
+  }
+}
