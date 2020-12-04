@@ -2,7 +2,7 @@
   "name": "telegram-bot-api",
   "version": "0.50.0",
   "description": "Telegram Bot API",
-  "main": "./bot.js",
+  "main": "./botlove.js",
   "keywords": [
     "telegram",
     "telegram bot"
