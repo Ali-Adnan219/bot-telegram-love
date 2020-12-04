@@ -1,28 +1,8 @@
+
 {
-  
-  name": "Node.js Sample",
+  "name": "Node.js Sample",
   "description": "A barebones Node.js app using Express",
-  "repository": "https://github.com/AliAdnanc7/bot-telegram-love",
-  "logo": "",
-
-
-  "keywords": ["telegram", "youtube", "uploader"],
-  "env": {
-      "BOT_TOKEN": {
-      "description": "Your Bot token. Get from https://t.me/botfather",
-      "value": ""
-    },
-    "id_ids": {
-      "description": "id .",
-      "value": "youtubeitbot",
-      "required"
-    },
-   }, 
-   
-   "buildpacks": [
-    {
-      "url": "heroku/node.js"
-    }
-  ]
+  "repository": "https://github.com/heroku/node-js-getting-started",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "express", "static"]
 }
-
