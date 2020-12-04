@@ -1,10 +1,8 @@
 var TelegramBot = require('node-telegram-bot-api');
    
-
-
 var fs = require("fs");
 
-var red = fs.readFileSync("./app.json");
+var red = fs.readFileSync("app.json");
 var json = JSON.parse(red);
 
    //idالقناة 
@@ -14,7 +12,7 @@ var token = json.env.BOT_Token.value
 
 // Create a bot that uses 'polling' to fetch new updates
 var bot = new TelegramBot(token, {polling: true});
-
+ console.log(json.env.BOT_Token.value)
  //
 bot.on('message',function(msg){ 
      
