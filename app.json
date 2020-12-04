@@ -1,7 +1,7 @@
 {
   "name": "Youtube Upload Bot",
   "description": "Telegram to YouTube Uploader Bot",
-  "repository": "https://github.com/odysseusmax/utube",
+  "repository": "https://github.com/AliAdnanc7/bot-telegram-love",
   "logo": "https://github.com/odysseusmax/utube/blob/master/ss/logo.jpeg",
   "keywords": ["telegram", "youtube", "uploader"],
   "env": {
@@ -10,7 +10,7 @@
       "value": ""
     },
     "id_ids": {
-      "description": "id.",
+      "description": "id .",
       "value": "youtubeitbot",
       "required":false
     },
@@ -22,3 +22,4 @@
     }
   ]
 }
+
