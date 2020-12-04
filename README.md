@@ -1,4 +1,6 @@
 # bot-telegram-love
 بوت تلكرام يقيس نسبة الحب بين شخصين
 
-[![Deploy](https://www.herokucdn.com/) 
+ <a href="https://heroku.com/deploy">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
