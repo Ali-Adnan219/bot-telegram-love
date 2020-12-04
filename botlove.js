@@ -4,7 +4,7 @@ var TelegramBot = require('node-telegram-bot-api');
 
 var fs = require("fs");
 
-var red = fs.readFileSync("app.json");
+var red = fs.readFileSync("./app.json");
 var json = JSON.parse(red);
 
  var cha =json.env.id_channl.value  //idالقناة 
