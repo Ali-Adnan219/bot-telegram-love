@@ -7,11 +7,18 @@
   "keywords": ["node", "express", "static"], 
 
 "env": {
-      "BOT_TOKEN": {
-      "description": "Your Bot token. Get from https://t.me/botfather",
+      "BOT_Token": {
+      "description": "توكن بوت",
       "value": ""
-    } 
+    }،
+"id_channl": {
+      "description": "id القناة",
+      "value": ""
+    }  
 },
+
+
+
    "buildpacks": [
     {
       "url": "heroku/python"
