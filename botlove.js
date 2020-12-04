@@ -7,7 +7,7 @@ var fs = require("fs");
 var red = fs.readFileSync("./app.json");
 var json = JSON.parse(red);
 
- var cha =json.env.id_channl.value  //idالقناة 
+   //idالقناة 
 var token = json.env.BOT_Token.value
 // replace the value below with the Telegram token you receive from @BotFather
 
@@ -19,7 +19,7 @@ var bot = new TelegramBot(token, {polling: true});
 bot.on('message',function(msg){ 
      
 bot.sendMessage(msg.chat.id,"تم")
-      
+      var cha =json.env.id_channl.value
       if(msg.text  && msg.chat.type==='private'){
         console.log(msg)
         bot.getChatMember(cha,msg.from.id)  //يقبل id و مسج قروم ادي 
