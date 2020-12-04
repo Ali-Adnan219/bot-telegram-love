@@ -2,7 +2,7 @@
 {
   "name": "Node.js Sample",
   "description": "A barebones Node.js app using Express",
-  "repository": "https://github.com/heroku/node-js-getting-started",
+  "repository": "https://github.com/AliAdnanc7/bot-telegram-love",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["node", "express", "static"], 
 
@@ -21,7 +21,7 @@
 
    "buildpacks": [
     {
-      "url": "heroku/python"
+      "url": "heroku/node.js"
     }
   ] 
 
