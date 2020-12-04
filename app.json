@@ -19,11 +19,6 @@
 
 
 
-   "buildpacks": [
-    {
-      "url": "heroku/node.js"
-    }
-  ] 
 
 
 
