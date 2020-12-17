@@ -1,18 +1,23 @@
 {
-  "name": "telegram-bot-api",
-  "version": "0.50.0",
-  "description": "Telegram Bot API",
-  "main": "./botlove.js",
-  "keywords": [
-    "telegram",
-    "telegram bot"
-  ],
-  "author": "Ali",
-  "license": "MIT",
-  "engines": {
-    "node": ">=0.12"
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
+  "engines": {
+    "node": "12.16.1"
+  },
+  "author": "Eugene",
+  "license": "ISC",
   "dependencies": {
-    "node-telegram-bot-api": "^0.50.0"
+    "dotenv": "^8.2.0",
+    "node-telegram-bot-api": "^0.50.0",
+    "puppeteer": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
