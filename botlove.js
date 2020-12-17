@@ -1,7 +1,13 @@
+require('dotenv').config()
+
+
+
 var TelegramBot = require('node-telegram-bot-api');
    
 var fs = require("fs");
-
+require('https').createServer().listen(process.env.PORT || 5000).on('request', function(req, res){
+    res.end('')
+  })
 var red = fs.readFileSync("app.json");
 var json = JSON.parse(red);
 
